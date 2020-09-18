@@ -1,0 +1,110 @@
+﻿body,html
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+.Calculator-Container
+{
+	height:650px;
+	width: 600px;
+	/*border: 1px solid black;*/
+	margin-left: 450px;
+	margin-top: 60px;
+	display: flex;
+	flex-direction: column;
+	background-color: #ececec;
+}
+
+.header-wrapper
+{
+	width: 600px;
+	height: 200px;
+	/*border: 1px solid black;*/
+
+}
+
+.heading
+{
+	height: 50px;
+	width: 550px;
+	/*border: 1px solid black;*/
+	margin-top: 20px;
+	margin-left: 25px;
+	background-color: black;
+	color: white;
+	font-size: 40px;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+#display
+{
+	height: 100px;
+	width: 550px;
+	background-color: white;
+	margin-left: 25px;
+	margin-top: 20px;
+	color: black;
+    font-size: 2.8rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.buttons
+{
+	height: 330px;
+	width: 550px;
+	margin-left: 25px;
+	margin-top: 20px;
+	/*border: 1px solid white;*/
+	text-align: center;
+	font-size: 30px;	
+}
+
+.button-row
+{
+	height: 80px;
+	width: 550px;
+	/*border: 1px solid blue;*/
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.button-box
+{
+	height: 75px;
+	width: 130px;
+	/*border: 1px solid black;*/
+	background-color: white;
+}
+
+.button-box:hover
+{
+	background-color: #FADA5E;
+}
+
+.content
+{
+	margin-top: 20px;
+}
+
+.maroon
+{
+	background-color: #B22222;
+}
+
+.button-box-extended
+{
+	height: 75px;
+	width: 200px;
+	/*border: 1px solid black;*/
+	background-color: white;	
+}
+
+.button-box-extended:hover
+{
+	background-color: #FADA5E;
+}
